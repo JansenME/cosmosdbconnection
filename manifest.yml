@@ -1,0 +1,7 @@
+---
+applications:
+- name: cosmosdb
+  buildpack: java_buildpack_offline
+  path: target/database-0.1.jar
+  routes:
+    - route: cosmosdb.apps.pcf-t01.rabobank.nl
